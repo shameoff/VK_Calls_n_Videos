@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "fs": "^0.0.1-security"
+  },
+  "name": "create_trailer",
+  "version": "1.0.0",
+  "description": "Task 50 VK Video Vezdekod",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "shameoff",
+  "license": "ISC"
+}
