@@ -3,5 +3,16 @@
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
     "node-vk-bot-api": "^3.5.0"
-  }
+  },
+  "name": "bot_for_call_links",
+  "version": "1.0.0",
+  "description": "task 10 vezdekod",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "shameoff",
+  "license": "ISC"
 }

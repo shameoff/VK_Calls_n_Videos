@@ -1,7 +1,6 @@
 require('dotenv').config()
 const axios = require('axios');
 
-const group_id = process.env.GROUP_ID
 const access_token = process.env.ACCESS_TOKEN
 const api_version = process.env.VK_API_VERSION
 
@@ -30,12 +29,6 @@ bot.on((ctx) => {
         }
     }
 });
-
-
-
-
-
-
 
 
 
