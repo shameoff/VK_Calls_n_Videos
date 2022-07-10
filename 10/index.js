@@ -14,7 +14,7 @@ const bot = new VkBot(token);
 bot.on((ctx) => {
     var message = ctx.message.text
     if (message != '') {
-        if (message == "Звонок") {
+        if (message.toLowerCase() == "звонок") {
             axios.get("https://api.vk.com/method/messages.startCall?access_token=" + access_token + "&v=" + api_version).then(response => {
                 ctx.reply("ВЫ ХОТИТЕ ПОЗВОНИТЬ? НУ ЗВОНИТЕ, ВОТ ВАМ ССЫЛКА:\n" + response.data.response.join_link)
                 
